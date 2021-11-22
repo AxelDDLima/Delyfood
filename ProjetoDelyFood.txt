@@ -1,0 +1,31 @@
+Cliente
+-Cadastro
+-Login
+-Fazer pedido
+
+Status pedido
+Pedido processamento
+Pedido finalizado
+
+Pedido
+IdCliente
+Endereço
+IdProduto
+ValorTotalCompra
+
+ERP Dono
+Login como adm
+Cadastro, remoção, alterar e buscarProduto.
+visualisar pedidos
+alterar status do pedido
+
+	EXPLICANDO SISTEMA
+ O sistema consiste em um site de pedidos, cliente vai logar ou se cadastrar no site,
+depois selecionar itens e quatidades do itens que vai querer e clicar para realizar pedido.
+ Após pedido realizado criará um pedido com Status Processamento, contendo, Id do cliente
+que realizou o pedido, endereço, id do produto, quantidade, valor total da compra.
+ Sistem do dono da loja, lá ele tem acesso as funções de Casdastrar, remover, alterar e buscar produto,
+caso queira fazer alguma alteração no site, também lá ele vai acompanhar a visualização dos pedidos,
+cada pedido tem um Status iniciado como processamento, na aba vizualização dos pedido ele pode alterar
+Status do pedido.
+

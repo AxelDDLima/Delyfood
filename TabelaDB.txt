@@ -1,0 +1,24 @@
+CREATE TABLE cliente(
+codCliente int AUTO_INCREMENT,
+nome varchar(30) NOT NULL,
+email varchar(50),
+cpf int(11),
+endereço int(8),
+PRIMARY KEY(codCliente)
+);
+
+CREATE TABLE produto(
+codProduto int AUTO_INCREMENT,
+nomeProduto varchar(30) NOT NULL,
+preço DECIMAL(7,2) NOT NULL,
+descrição varchar(50),
+imagem varchar(500),
+PRIMARY KEY (codigo)
+);
+
+CREATE TABLE pedido(
+codPedido int AUTO_INCREMENT,
+codProduto int NOT NULL,
+codCliente int NOT NULL,
+PRIMARY KEY (codPedido)
+);

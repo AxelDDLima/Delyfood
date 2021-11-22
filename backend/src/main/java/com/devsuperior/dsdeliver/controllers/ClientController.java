@@ -1,0 +1,42 @@
+package com.devsuperior.dsdeliver.controllers;
+
+import java.net.URI;
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import com.devsuperior.dsdeliver.dto.ClientDTO;
+import com.devsuperior.dsdeliver.services.ClientService;
+
+@RestController
+@RequestMapping(value = "/client")
+public class ClientController {
+
+	@Autowired
+	private ClientService service;
+	
+	@PostMapping("/register")
+	public ResponseEntity<ClientDTO> insert(@RequestBody ClientDTO dto) {
+		dto = service.insert(dto);
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id})")
+				.buildAndExpand(dto.getId()).toUri();
+				
+		return ResponseEntity.created(uri).body(dto);
+	}
+	
+	
+	@SuppressWarnings("rawtypes")
+	@PostMapping("/login")
+	public ResponseEntity login(@Valid @RequestBody ClientDTO dto) {
+		dto = service.loginClient(dto.getCpf(), dto.getPassword());
+		
+		return ResponseEntity.ok().body(dto);
+	}
+	
+}

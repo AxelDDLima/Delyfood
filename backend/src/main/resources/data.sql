@@ -1,0 +1,11 @@
+
+
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Asinha empanada de frango', 15.6, 'http://www.saboresajinomoto.com.br/uploads/images/recipes/asinhas_empanadas_com_molho_de_mostarda.jpg', 'Delicioso(a) asinha de frango empanada frito bem temperado, sem acompanhamento, porção 4 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Asinha de frango', 15.6, 'https://receitinhas.s3-sa-east-1.amazonaws.com/wp-content/uploads/2017/08/asa-848x477.jpg', 'Delicioso(a) asinha de frango frito bem temperado, sem acompanhamento, porção 4 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Coxa empanada de frango ', 9.99, 'https://www.receiteria.com.br/wp-content/uploads/coxa-de-frango-empanada-capa.jpg', 'Delicioso(a) coxa de frango empanada frito bem temperado, sem acompanhamento, porção 4 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Coxa de frango', 9.99, 'https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2008/09/coxa_frango_cebola.jpg', 'Delicioso(a) coxa de frango frito bem temperado, sem acompanhamento, porção 4 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Sobrecoxa empanada de frango', 10.9, 'https://i.pinimg.com/originals/80/9a/f7/809af7a6d4921d489aa34243d0d6448c.jpg', 'Delicioso(a) sobrecoxa empanada frito bem temperado, sem acompanhamento, porção 2 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Sobrecoxa de frango', 10.9, 'https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_767657137.jpg', 'Delicioso(a) sobrecoxa frito  bem temperado, sem acompanhamento, porção 2 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Peito de Frango', 12.9, 'https://www.minervafoods.com/wp-content/uploads/2018/02/frango_grelhado_-_blog.jpg', 'Delicioso(a) peito de frango grelhado bem temperado, sem acompanhamento, porção 2 unidades.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Frango assado', 25.0, 'https://ncultura.pt/wp-content/uploads/2020/05/cover-01.jpg', 'Delicioso(a) frango frito inteiro bem temperado, sem acompanhamento.');
+
