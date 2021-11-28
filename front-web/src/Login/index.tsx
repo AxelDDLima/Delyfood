@@ -5,7 +5,6 @@ import { loginClient } from "../api";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router";
 import { regex } from "../util/regex";
-import Navbar from "../Navbar";
 
 // import { Container } from './styles';
 
@@ -52,7 +51,6 @@ const Login = ({userTest}: UserTest) => {
   };
   return (
     <>
-      <Navbar />
       <div className="geral">
         <div className="containerLogin">
           <h1 className="h1login">Login</h1>

@@ -1,12 +1,9 @@
 import "./styles.css";
 import { ReactComponent as MainImage } from "./main.svg";
 import { Link } from "react-router-dom";
-import Navbar from "../Navbar";
-
 function Home() {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="home-content">
           <div className="home-actions">

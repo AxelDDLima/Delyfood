@@ -4,10 +4,12 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Login from "./Login";
 import Register from "./Register";
+import Navbar from "./Navbar";
 
 function Routes() {
   return (
     <BrowserRouter>
+    <Navbar />
       <Switch>
         <Route path="/orders">
           <Orders />

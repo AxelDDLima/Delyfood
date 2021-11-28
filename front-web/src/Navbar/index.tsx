@@ -11,13 +11,13 @@ function Navbar() {
     const [idt, setIdt] = useState(0)
     const [is, setIs] = useState(false)
 
-    useEffect(() =>{
+    useEffect(() => {
       const getId = localStorage.getItem('user');
       const id = Number(getId);
       setIdt(id);
     })
     console.log(idt);
-    useEffect(() =>{
+    useEffect(() => {
       if(idt > 0) {
         console.log(idt)
         setIs(true)

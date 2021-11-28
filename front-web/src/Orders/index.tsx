@@ -8,7 +8,6 @@ import { OrderLocationData, Product } from "./types";
 import OrderLocation from "./OrderLocation";
 import OrderSummary from "./OrderSummary";
 import { checkIsSelected } from "./helpers";
-import Navbar from "../Navbar"
 
 
 type User = {
@@ -88,7 +87,6 @@ function Orders() {
 }
   return (
 <>
-  <Navbar />  
   <div className="orders-container">
     {/* <Navbar /> */}
     <StepsHeader />
