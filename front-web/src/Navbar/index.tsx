@@ -1,7 +1,6 @@
 import "./styles.css";
 import { ReactComponent as Logo } from "./logogalinha.svg";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 function Navbar() {
 
